@@ -1,6 +1,6 @@
 import csv
 import datetime
-data = open('학급문고.csv')
+data = open('학급문고.csv', encoding='utf8')
 file = csv.reader(data)
 header = next(file)
 file = list(file)
