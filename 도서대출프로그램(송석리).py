@@ -53,7 +53,7 @@ while True :
                 else :
                     print('대출하신 도서가 아닙니다.')
                 break
-data = open('학급문고.csv','w',newline = '')
+data = open('학급문고.csv','w',newline = '',encoding='utf8')
 save = csv.writer(data)
 save.writerow(header)
 for row in file :
